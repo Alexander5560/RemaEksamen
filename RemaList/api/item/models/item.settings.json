@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "items",
+  "info": {
+    "name": "Item"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Metric": {
+      "type": "string"
+    },
+    "Amount": {
+      "type": "integer"
+    },
+    "Price": {
+      "type": "integer"
+    },
+    "category": {
+      "via": "items",
+      "model": "category"
+    }
+  }
+}
