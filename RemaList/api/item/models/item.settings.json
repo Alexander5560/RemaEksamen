@@ -25,8 +25,11 @@
       "type": "integer"
     },
     "category": {
-      "via": "items",
-      "model": "category"
+      "model": "category",
+      "via": "items"
+    },
+    "Produce": {
+      "type": "string"
     }
   }
 }

@@ -16,8 +16,8 @@
       "type": "richtext"
     },
     "items": {
-      "collection": "item",
-      "via": "category"
+      "via": "category",
+      "collection": "item"
     }
   }
 }
